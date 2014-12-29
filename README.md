@@ -14,9 +14,9 @@ this workshop will bring you to the journey of [React](http://facebook.github.io
 5. Router (maybe)
 6. misc
 
-## :rainbow: Workshop Land :rainbow:
+## Welcome to :rainbow: Workshop Land :rainbow:
 
-https://github.com/jcouyang/react-workshop/wiki/Hello-React
+https://github.com/jcouyang/react-workshop/wiki
 
 ## Random Resources
 - [Official Docs](http://facebook.github.io/react/docs/getting-started.html)
