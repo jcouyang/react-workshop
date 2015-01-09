@@ -1,6 +1,6 @@
 var React = require('react'),
-{AppBar, IconButton} = require('material-ui')
-{AppBar, AppCanvas, IconButton} = require('material-ui'),
+{AppBar, AppCanvas, IconButton, Input} = require('material-ui'),
+NewsList = require('./news-list')
 
 var ReactWorkshop = React.createClass({
 
@@ -9,14 +9,21 @@ var ReactWorkshop = React.createClass({
       <div>
        <AppCanvas predefinedLayout={1}>
            <AppBar className="mui-dark-theme" zDepth={0} title="React Hacker News">
-             {//maybe something like a search bar}
+             <Input type='search'
+                    onChange={this._handleSearch}
+                    name="query"
+                    placeholder="Search"
+                    className="search"/>
            </AppBar>
            <div className="mui-app-content-canvas">
-             {//your Hacker News list here. hint: you can use <Paper/> to wrap each item }
+             <NewsList/>
            </div>
        </AppCanvas>
       </div>
     );
+  },
+  _handleSearch: function(){
+     //filtering new while query
   }
 });
 
