@@ -1,6 +1,8 @@
 # React Workshop
 this workshop will bring you to the journey of [React](http://facebook.github.io/react/) land :rainbow:
 
+in this react land, we'll gonna build a React version of my favorite news aggregator [Hacker News](news.ycombinator.com)
+
 ## Discuss
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jcouyang/react-workshop?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
